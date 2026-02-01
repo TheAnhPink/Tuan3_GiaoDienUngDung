@@ -8,6 +8,7 @@ import DigitalClock from './components/DigitalClock'
 import ProductFilter from "./components/ProductFilter"
 import TodoApp from './components/TodoApp/TodoApp'
 import Stopwatch from './components/Stopwatch'
+import FetchUsers from './components/FetchUsers'
 
 function App() {
   return (
@@ -24,7 +25,10 @@ function App() {
     // <TodoApp/>
 
     // bài 5
-    <Stopwatch />
+    // <Stopwatch />
+
+    // bài 6
+      <FetchUsers/>
   )
 }
 
