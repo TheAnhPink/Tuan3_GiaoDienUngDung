@@ -6,13 +6,10 @@ function Stopwatch() {
   const [tenLap, setTenLap] = useState("");
   const [danhSachLap, setDanhSachLap] = useState([]);
 
-  // useRef lưu intervalId
   const intervalRef = useRef(null);
 
-  // useRef để focus input
   const inputRef = useRef(null);
 
-  // Start
   const batDau = () => {
     if (dangChay) return;
 
@@ -22,14 +19,13 @@ function Stopwatch() {
     }, 10);
   };
 
-  // Pause
+
   const tamDung = () => {
     clearInterval(intervalRef.current);
     intervalRef.current = null;
     setDangChay(false);
   };
 
-  // Reset
   const datLai = () => {
     clearInterval(intervalRef.current);
     intervalRef.current = null;
@@ -38,7 +34,6 @@ function Stopwatch() {
     setDanhSachLap([]);
   };
 
-  // Add lap + focus input
   const themLap = () => {
     if (!tenLap.trim()) return;
 
@@ -48,7 +43,6 @@ function Stopwatch() {
     ]);
     setTenLap("");
 
-    // focus lại input
     inputRef.current.focus();
   };
 
