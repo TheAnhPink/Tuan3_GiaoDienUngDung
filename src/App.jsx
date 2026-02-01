@@ -6,6 +6,7 @@ import './App.css'
 import UserForm from './components/UserForm'
 import DigitalClock from './components/DigitalClock'
 import ProductFilter from "./components/ProductFilter"
+import TodoApp from './components/TodoApp/TodoApp'
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
     // <DigitalClock />
 
     // bài 3
-    <ProductFilter />
+    // <ProductFilter />
+
+    // bài 4
+    <TodoApp/>
   )
 }
 
