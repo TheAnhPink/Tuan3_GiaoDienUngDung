@@ -4,10 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import UserForm from './components/UserForm'
+import DigitalClock from './components/DigitalClock'
 
 function App() {
   return (
-    <UserForm />
+    // baif 1
+    // <UserForm />
+
+    // bài 2
+    <DigitalClock />
   )
 }
 
