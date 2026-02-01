@@ -1,0 +1,22 @@
+.product-filter {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.controls input {
+  padding: 8px;
+  flex: 1;
+}
+
+ul {
+  padding-left: 20px;
+}

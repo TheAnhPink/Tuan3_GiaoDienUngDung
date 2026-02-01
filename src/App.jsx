@@ -5,6 +5,7 @@ import './App.css'
 
 import UserForm from './components/UserForm'
 import DigitalClock from './components/DigitalClock'
+import ProductFilter from "./components/ProductFilter"
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
     // <UserForm />
 
     // bài 2
-    <DigitalClock />
+    // <DigitalClock />
+
+    // bài 3
+    <ProductFilter />
   )
 }
 
