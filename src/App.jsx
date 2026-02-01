@@ -7,6 +7,7 @@ import UserForm from './components/UserForm'
 import DigitalClock from './components/DigitalClock'
 import ProductFilter from "./components/ProductFilter"
 import TodoApp from './components/TodoApp/TodoApp'
+import Stopwatch from './components/Stopwatch'
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
     // <ProductFilter />
 
     // bài 4
-    <TodoApp/>
+    // <TodoApp/>
+
+    // bài 5
+    <Stopwatch />
   )
 }
 
