@@ -1,0 +1,21 @@
+.form-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+.result {
+  margin-top: 10px;
+}
