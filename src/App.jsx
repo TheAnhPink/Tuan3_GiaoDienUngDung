@@ -9,6 +9,8 @@ import ProductFilter from "./components/ProductFilter"
 import TodoApp from './components/TodoApp/TodoApp'
 import Stopwatch from './components/Stopwatch'
 import FetchUsers from './components/FetchUsers'
+import { ThemeProvider } from "./components/ThemeSwitcher/ThemeContext";
+import Layout from "./components/ThemeSwitcher/Layout";
 
 function App() {
   return (
@@ -28,7 +30,12 @@ function App() {
     // <Stopwatch />
 
     // bài 6
-      <FetchUsers/>
+      // <FetchUsers/>
+
+      // bài 7
+      <ThemeProvider>
+      <Layout />
+    </ThemeProvider>
   )
 }
 
